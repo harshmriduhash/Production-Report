@@ -273,7 +273,7 @@ const ReportForm = () => {
                 onChange={(e) => handleChange(rowIndex, colIndex, e.target.value)}
               />
             ))}
-          </div>
+          </div> 
         ))}
         <button type="button" onClick={addRow}>Add Row</button>
         <button type="submit">Save Report</button>
@@ -288,3 +288,6 @@ export default ReportForm;
 // Install dependencies: npm install express mongoose cors bcryptjs jsonwebtoken react-router-dom axios
 // Add scripts in package.json for frontend and backend start.
 // Setup .env file for secret keys if needed.
+// Run frontend and backend servers: npm start
+// Test the application in a browser.
+// https://socialbee.com/ai-post-generator/
